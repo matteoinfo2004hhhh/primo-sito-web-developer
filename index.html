@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <title>Sito Web di Esempio</title>
+</head>
+<body>
+
+    <!-- Barra di Navigazione Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <div class="container">
+            <a class="navbar-brand" href="#">Il Tuo Logo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#homeSection">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#cs">Chi Siamo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#cosafa">Cosa Fa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contattaci</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1 class="animate__animated animate__fadeIn" style="text-align: center;color: #28a745;">BENVENUTO NEL PRIMO SITO WEB DEVELOPER</h1>
+        <h2 class="animate__animated animate__fadeIn" style="text-align: center;">Login</h2>
+        <form id="loginForm" class="animate__animated animate__fadeIn">
+            <div class="mb-3">
+                <label for="username" class="form-label">Username:</label>
+                <input type="text" class="form-control" id="username" name="username" required>
+            </div>
+    
+            <div class="mb-3">
+                <label for="password" class="form-label">Password:</label>
+                <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+    
+            <button type="button" class="btn btn-success" onclick="checkLogin()">Login</button>
+        </form>
+    
+        <p id="welcomeMessage" class="hidden animate__animated animate__fadeIn">Benvenuto!</p>
+    </div>
+
+
+
+
+<section id="homeSection" class="mt-5" style=" background-color: #28a745; ">
+    <h2 class="mb-4" style="text-align: center;">Benvenuto nella sezione Home!</h2>
+    <div class="container">
+    <p style="font-size: 20px;">Il primo sito web developer è un'entusiasmante piattaforma digitale che offre servizi all'avanguardia per la progettazione e lo sviluppo di siti web innovativi. La sua interfaccia intuitiva e user-friendly consente agli utenti di creare facilmente e personalizzare il proprio spazio online, anche senza competenze tecniche approfondite. Con una vasta gamma di template moderni e funzionalità avanzate, il sito web developer si distingue per la sua flessibilità e la capacità di adattarsi alle esigenze di diversi settori. Grazie a strumenti di codifica semplificati e un editor visuale potente, gli sviluppatori possono rapidamente implementare soluzioni su misura, garantendo una presenza online robusta e accattivante. Il sito si distingue anche per il suo focus sulla responsive design, assicurando un'ottima esperienza utente su tutti i dispositivi. Inoltre, fornisce risorse educative, tutorial dettagliati e una comunità attiva per favorire la crescita delle competenze e la condivisione di conoscenze. Con un approccio orientato all'innovazione, il primo sito web developer si posiziona come un alleato affidabile per chiunque voglia esplorare le potenzialità della creazione web senza complicazioni.
+    </p> 
+  
+    <p>.</p>
+    </div>
+</section>
+
+<section id="cs" class="mt-5" >
+    <h2 class="mb-4" style="text-align: center;">CHI SIAMO</h2>
+    <div class="container">
+    <p style="font-size: 20px;"> Siamo un team appassionato di esperti digitali, uniti dalla missione di trasformare idee in realtà online. Ci definiamo non solo come sviluppatori di siti web, ma come architetti digitali che plasmano esperienze uniche e coinvolgenti. Con anni di esperienza nel settore, il nostro team porta competenze diverse, dalla progettazione all'implementazione, garantendo soluzioni all'avanguardia per le esigenze di ogni cliente. La nostra filosofia si basa sulla creatività, sull'innovazione e sulla semplicità. Ci impegniamo a offrire non solo siti web funzionali e esteticamente accattivanti, ma anche a guidare i nostri clienti attraverso un processo di sviluppo fluido e trasparente. La collaborazione è al centro del nostro approccio: lavoriamo a stretto contatto con i nostri clienti per comprendere appieno le loro visioni e tradurle in soluzioni digitali su misura. Siamo orgogliosi della nostra capacità di adattarci alle ultime tendenze e tecnologie, garantendo che ogni progetto rifletta l'identità unica del cliente e raggiunga i suoi obiettivi online. Siamo più di un team di sviluppatori - siamo creatori di esperienze digitali straordinarie.</p>
+
+  <div style="float: left;width: 1500px;height: 200px;">
+    <img src="web.webp" style="height: 200px;width: 200px;">
+    <img src="bannerlenguajes.webp" style="height: 200px;width: 200px;">
+    <img src="siglasmedia_xl.png" style="height: 200px;width: 200px;">
+    <img src="web.webp" style="height: 200px;width: 200px;">
+    <img src="bannerlenguajes.webp" style="height: 200px;width: 200px;">
+    <img src="bannerlenguajes.webp" style="height: 200px;width: 200px;">
+  </div> 
+  <button type="button" class="btn btn-success" onclick="checkLogin()">Login</button>
+
+    </div>
+
+    
+</section>
+
+<section id="cosafa" class="mt-5" style=" background-color: #28a745; ">
+    <h2 class="mb-4" style="text-align: center;">COSA FA</h2>
+    <div class="container">
+    <p style="font-size: 20px;">Il nostro team è specializzato nella progettazione e nello sviluppo di siti web personalizzati, offrendo soluzioni digitali su misura per le esigenze specifiche di ogni cliente. La nostra gamma di servizi include la creazione di siti web responsive, ottimizzati per garantire un'esperienza utente impeccabile su tutti i dispositivi. Siamo esperti nella implementazione di funzionalità avanzate e personalizzazioni per soddisfare le richieste più complesse. Oltre allo sviluppo web, offriamo servizi di consulenza e supporto tecnico continuo per garantire che i nostri clienti mantengano una presenza online forte e aggiornata. Ci impegniamo a rimanere all'avanguardia delle ultime tendenze e tecnologie digitali, garantendo che ogni progetto rifletta l'innovazione e l'eccellenza. La nostra dedizione va oltre la semplice creazione di siti web; siamo qui per guidare i nostri clienti attraverso 
+        l'intero processo, dalla concezione all'implementazione, assicurando risultati che superino le aspettative.
+    </p> 
+  
+    <p>.</p>
+    </div>
+</section>
+
+
+<section id="cosafa" class="mt-5" >
+    <div class="container">
+        <h1 class="animate__animated animate__fadeIn" style="text-align: center;color: #28a745;">CONTATTACI</h1>
+        <h4 class="animate__animated animate__fadeIn" style="text-align: center;">CONTATTA QUALCOSA DI INTERESANTE</h4>
+        <form id="loginForm" class="animate__animated animate__fadeIn">
+            <div class="mb-3">
+                <label for="username" class="form-label">Nome:</label>
+                <input type="text" class="form-control" id="username" name="username" required>
+            </div>
+    
+            <div class="mb-3">
+                <label for="username" class="form-label">Cognome:</label>
+                <input type="text" class="form-control" id="username" name="username" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="password" class="form-label">Email:</label>
+                <input type="password" class="form-control" id="password" name="password" required>
+            </div>
+    
+            <button type="button" class="btn btn-success" onclick="checkLogin()">INVIA</button>
+        </form>
+    
+    </div>
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
